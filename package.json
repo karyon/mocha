@@ -97,7 +97,7 @@
     "eslint-plugin-promise": "^6.0.1",
     "fail-on-errors-webpack-plugin": "^3.0.0",
     "fs-extra": "^10.0.0",
-    "husky": "^4.2.5",
+    "husky": "^8.0.3",
     "hyperlink": "^5.0.4",
     "jsdoc": "^3.6.7",
     "jsdoc-ts-utils": "^2.0.1",
@@ -174,10 +174,5 @@
   },
   "overrides": {
     "webdriverio": "^7.33.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
